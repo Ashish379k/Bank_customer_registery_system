@@ -1,0 +1,13 @@
+.bgImage{
+    background-image: url("https://images.unsplash.com/photo-1558401549-29b4893f4d9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=742&q=80");
+    background-size: cover;
+    height: 48vw;
+}
+
+@media(max-width: 600px) {
+    .bgImage{
+        background-image: url("https://images.unsplash.com/photo-1558401549-29b4893f4d9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=742&q=80");
+        background-size: cover;
+        height: 100vw;
+    }
+  }
